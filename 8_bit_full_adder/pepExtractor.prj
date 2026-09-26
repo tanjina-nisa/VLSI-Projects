@@ -1,0 +1,8 @@
+work	"and_gate.vhd"
+work	"full_adder.vhd"
+work	"full_adder_4bit.vhd"
+work	"full_adder_8bit.vhd"
+work	"half_adder.vhd"
+work	"nand_gate.vhd"
+work	"or_gate.vhd"
+work	"xor_gate.vhd"
