@@ -1,0 +1,6 @@
+work	"adder_4bit.vhd"
+work	"alu_4bit.vhd"
+work	"and_unit.vhd"
+work	"full_adder.vhd"
+work	"mux_4to1.vhd"
+work	"or_unit.vhd"

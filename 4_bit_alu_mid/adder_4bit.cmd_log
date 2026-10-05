@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/computer/mid/adder_4bit.xst" -ofn "/home/ise/VLSI/computer/mid/adder_4bit.syr" 

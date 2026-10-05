@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/mid/or_unit.xst" -ofn "/home/ise/VLSI/mid/or_unit.syr" 
