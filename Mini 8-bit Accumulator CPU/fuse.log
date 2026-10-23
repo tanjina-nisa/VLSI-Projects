@@ -1,0 +1,52 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/ise/VLSI/CPU_22201086/cpu_tb_isim_beh.exe -prj /home/ise/VLSI/CPU_22201086/cpu_tb_beh.prj work.cpu_tb 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 1
+Turning on mult-threading, number of parallel sub-compilation jobs: 0 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/nand_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/not_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/xor_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/and_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/or_gate.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/half_adder.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/full_adder.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/adder_4bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/adder_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/sub_8bit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/program_rom.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/pc_reg.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/control_unit.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/alu_cpu.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/acc_z_reg.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/cpu_top.vhd" into library work
+Parsing VHDL file "/home/ise/VLSI/CPU_22201086/cpu_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 97408 KB
+Fuse CPU Usage: 2790 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture dataflow of entity nand_gate [nand_gate_default]
+Compiling architecture structural of entity xor_gate [xor_gate_default]
+Compiling architecture structural of entity not_gate [not_gate_default]
+Compiling architecture structural of entity and_gate [and_gate_default]
+Compiling architecture structural of entity half_adder [half_adder_default]
+Compiling architecture structural of entity or_gate [or_gate_default]
+Compiling architecture structural of entity full_adder [full_adder_default]
+Compiling architecture structural of entity adder_4bit [adder_4bit_default]
+Compiling architecture behavioral of entity pc_reg [pc_reg_default]
+Compiling architecture behavioral of entity program_rom [program_rom_default]
+Compiling architecture behavioral of entity control_unit [control_unit_default]
+Compiling architecture structural of entity adder_8bit [adder_8bit_default]
+Compiling architecture structural of entity sub_8bit [sub_8bit_default]
+Compiling architecture structural of entity alu_cpu [alu_cpu_default]
+Compiling architecture behavioral of entity acc_z_reg [acc_z_reg_default]
+Compiling architecture structural of entity cpu_top [cpu_top_default]
+Compiling architecture behavioral of entity cpu_tb
+Time Resolution for simulation is 1ps.
+Compiled 36 VHDL Units
+Built simulation executable /home/ise/VLSI/CPU_22201086/cpu_tb_isim_beh.exe
+Fuse Memory Usage: 112120 KB
+Fuse CPU Usage: 4230 ms
+GCC CPU Usage: 8000 ms

@@ -1,0 +1,26 @@
+ISim log file
+Running: /home/ise/VLSI/CPU_22201086/cpu_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/ise/VLSI/CPU_22201086/cpu_tb_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /cpu_tb/UUT/U_ROM/ : Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+Finished circuit initialization process.
+at 7 ns: Note: cycle 0 OK : ACC=0  Z='1'  next PC=0 (/cpu_tb/).
+at 17 ns: Note: cycle 1 OK : ACC=2  Z='0'  next PC=1 (/cpu_tb/).
+at 27 ns: Note: cycle 2 OK : ACC=1  Z='0'  next PC=2 (/cpu_tb/).
+at 37 ns: Note: cycle 3 OK : ACC=1  Z='0'  next PC=3 (/cpu_tb/).
+at 47 ns: Note: cycle 4 OK : ACC=0  Z='1'  next PC=4 (/cpu_tb/).
+at 57 ns: Note: cycle 5 OK : ACC=0  Z='1'  next PC=7 (/cpu_tb/).
+at 67 ns: Note: cycle 6 OK : ACC=33  Z='0'  next PC=8 (/cpu_tb/).
+at 77 ns: Note: cycle 7 OK : ACC=66  Z='0'  next PC=9 (/cpu_tb/).
+at 87 ns: Note: cycle 8 OK : ACC=67  Z='0'  next PC=10 (/cpu_tb/).
+at 87 ns: Note: CPU TEST PASSED : Set 6 program executed correctly (final ACC = 0x43) (/cpu_tb/).

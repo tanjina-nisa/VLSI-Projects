@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/ise/VLSI/CPU_22201086/cpu_top.xst" -ofn "/home/ise/VLSI/CPU_22201086/cpu_top.syr" 
